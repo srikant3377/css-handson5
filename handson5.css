@@ -1,0 +1,175 @@
+.rep {
+    color: black;
+    justify-content: center;
+    display: flex;
+}
+body {
+    background: yellow
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+    
+    /* animation: sample2 5s infinite normal; */
+}
+@keyframes sample1{
+    0%{
+        transform: skewX(-30deg);
+    }
+    
+    100%{
+        transform: skewX(30deg);
+    }
+}
+
+.row1{
+    height: 100px;
+    width: 100px;
+    background: rgb(4, 58, 73);  
+    animation: sample1 2s infinite alternate;
+}
+.num{
+  margin-top: 90px;
+  /* padding-top: 90px; */
+ 
+}
+.row2{
+    height: 100px;
+    width: 100px;
+    background: rgb(105, 79, 42);   
+    animation: sample2 2s infinite alternate; 
+}
+
+@keyframes sample2{
+    0%{
+        transform: skewY(-30deg);
+    }
+    
+    100%{
+        transform: skewY(30deg);
+    }
+}
+.row3{
+    height: 100px;
+    width: 100px;
+    background: rgb(105, 79, 42);  
+    background: rgb(6, 58, 58); 
+    animation: sample3 1s infinite forwards;
+}
+@keyframes sample3{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.row41{
+    height: 100px;
+    width: 100px;
+    background: rgb(4, 63, 57);
+    animation: sumu 1s infinite alternate;
+
+}
+@keyframes sumu{
+    0%{
+        transform: scaleY(1)
+    }
+    100%{
+        transform: scaleY(1.5)
+    }
+}
+.row42{
+    height: 100px;
+    width: 100px;
+    background: rgb(169, 6, 38);
+    animation: sample42 1s infinite alternate;
+}
+@keyframes sample42{
+    0%{
+        transform: scaleX(1);
+    }
+    100%{
+        transform: scaleX(0.5);
+    }
+}
+.row43{
+    height: 100px;
+    width: 100px;
+    background: rgb(5, 125, 17);
+    animation: sample43 1s infinite alternate;
+}
+@keyframes sample43{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+.buxx{
+    height: 100px;
+    width: 100px;
+    background: green;
+    margin: 30px;
+   
+   
+}
+.bux{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;  
+}
+.bux1{
+    transition:2s;
+}
+.bux1:hover{
+    width: 300px;
+}
+.bux2{
+    transition:2s;
+}
+.bux2:hover{
+    width: 300px;
+    height: 300px;
+}
+.bux3{
+    transition:2s ease-in;
+}
+.bux3:hover{
+    width: 300px;
+}
+.bux4{
+    transition: 2s ease-out;
+}
+.bux4:hover{
+    width: 300px;
+}
+.bux5{
+    transition: 3s ease;
+}
+.bux5:hover{
+    width: 300px;
+}
+.bux6{
+    transition:3.5s ease-in-out;
+}
+.bux6:hover{
+    width: 300px;
+}
+.bux7{
+    transition:2s ease-out;
+}
+.bux7:hover{
+    width: 300px;
+}
+.Back{
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,123 @@
+.happy{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.orange{
+    color: black;
+    background: orange;
+    font-size: xx-large;
+}
+.white{
+    color: black;
+    background:white;
+    font-size: xx-large;
+}
+.green{
+    color: black;
+    background:green; font-size: xx-large;
+}
+body{
+    background: url(./sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid;
+    border-color: white green white orange;
+    margin: 0px;
+    height: 718px;
+   
+}
+.road{
+    height: 200px;
+    width: 500%;
+   position:relative;
+   top:  479px;
+   animation: anum3 2s infinite linear;
+}
+@keyframes anum3{
+    
+    100%{
+        transform: translateX(-550px);
+    }
+}
+.buildings{
+    height: 300px;
+    width: 200%;
+    position: relative;
+    top: -25px;
+    animation: anum4 3s infinite linear;
+}
+@keyframes anum4{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-650px);
+    }
+}
+.car{
+    height: 230px;
+    width: 440px;
+    position: relative;
+    top: -130px;
+    left: 550px;
+   
+    
+}
+.wheel{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: -250px;
+    left: 580px; 
+    animation: anum1 1s infinite linear;  
+}
+@keyframes anum1{
+    0%{
+        transform: rotate(0deg) ;
+    }
+    50%{
+        transform: rotate(180deg) ;
+    }
+    100%{
+        transform: rotate(360deg) ;
+    }
+    
+}
+.wheel2{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: -350px;
+    left: 855px; 
+    animation: anum2 1s infinite linear;  
+}
+@keyframes anum2{
+    0%{
+        transform: rotate(0deg) ;
+    }
+    50%{
+        transform: rotate(180deg) ;
+    }
+    100%{
+        transform: rotate(360deg) ;
+    }
+}
+.flag{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: -550px;
+    left: 855px; 
+    /* animation: anum2 0.09s infinite forwards;  */
+}
+.sun{
+    height: 90px;
+    width: 90px;
+    position: relative;
+    top: -950px;
+    left: 1100px;
+}
+
+
+
